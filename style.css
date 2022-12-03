@@ -19,7 +19,27 @@
     bottom: 585px;
     margin-left: 2px;
 }
+#enemy {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 578px;
+    margin-left: 910px;
+}
+
+/*Style background*/
 #dreamland{
    height: 200px;
    max-width: auto;
+}
+/*Jumping animation*/
+.animate{
+    animation: jump 0.3s linear;
+}
+/*Add keyframes to allow kirby to jump*/
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
 }
