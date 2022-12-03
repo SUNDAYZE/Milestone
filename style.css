@@ -17,5 +17,9 @@
     height: 25px;
     position: absolute;
     bottom: 585px;
-    
+    margin-left: 2px;
+}
+#dreamland{
+   height: 200px;
+   max-width: auto;
 }
