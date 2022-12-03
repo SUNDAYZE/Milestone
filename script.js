@@ -1,5 +1,6 @@
 //Add a jumping function for kirby in order to avoid the bad guys
 var kirby =document.getElementById('kirby');
+var enemy = document.getElementById("enemy");
 var counter=0;
 
 function jump(){
