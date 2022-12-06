@@ -37,6 +37,8 @@
 .animate{
     animation: jump 0.3s linear;
 }
+
+
 /*Add keyframes to allow kirby to jump*/
 @keyframes jump{
     0%{top: 150px;}
@@ -44,8 +46,18 @@
     70%{top: 100px;}
     100%{top: 150px;}
 }
+@keyframes enemy{
+    0%{left: 500px}
+    100%{left: -20px}
+}
+
 
 
 p{
     text-align: center;
+    font-family: "Press Start 2P";
+    src: url(https://fonts.google.com/specimen/Press+Start+2P/tester);
+    
 }
+
+
