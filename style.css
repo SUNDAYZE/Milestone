@@ -6,32 +6,32 @@
 }
 /*Add Border*/
 .game{
-    width: 500px;
-    height: 200px;
-    border: 2px solid black;
+    width: 700px;
+    height: 700px;
+    border: 3px solid black;
     margin: auto;
 }
 /*Style character*/
 #kirby {
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
     position: absolute;
-    bottom: 585px;
-    margin-left: 2px;
+    bottom: 300px;
+    margin-left: 10px;
 }
 #enemy{
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 180px;
     position: absolute;
-    bottom: 578px;
-    margin-left: 485px;
+    bottom: 280px;
+    margin-left: 400px;
     animation: enemy 1s infinite linear;
 }
 
 /*Style background*/
 #dreamland{
-   height: 200px;
-   max-width: auto;
+   height: 700px;
+   max-width: 700px;
 }
 /*Jumping animation*/
 .animate{
@@ -47,8 +47,8 @@
     100%{top: 150px;}
 }
 @keyframes enemy{
-    0%{left: 500px}
-    100%{left: -20px}
+    0%{left: 550px}
+    100%{left: -50px}
 }
 
 
